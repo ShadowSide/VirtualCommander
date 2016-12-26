@@ -1,5 +1,8 @@
 #pragma once
 
+
+
+#if 0
 //class FileSystemReader;
 
 class FsItem;//FsNode
@@ -28,3 +31,4 @@ class FsOpQueue;
 class FsContext;
 
 class TwoSidePanels;
+#endif
