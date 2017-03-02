@@ -9,7 +9,9 @@ SOURCES += main.cpp \
     VE/Exceptions/notimplemented.cpp \
     VE/Operations/operation.cpp \
     VE/Operations/operationfactory.cpp \
-    VE/Operations/operations.cpp
+    VE/Operations/operations.cpp \
+    VE/queueexecuter.cpp \
+    VE/iqueueexecuter.cpp
 
 RESOURCES += qml.qrc
 
@@ -27,4 +29,6 @@ HEADERS += \
     VE/Exceptions/notimplemented.h \
     VE/Operations/operation.h \
     VE/Operations/operationfactory.h \
-    VE/Operations/operations.h
+    VE/Operations/operations.h \
+    VE/queueexecuter.h \
+    VE/iqueueexecuter.h
